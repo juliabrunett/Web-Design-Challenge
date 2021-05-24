@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Latitude Analysis</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -23,13 +24,19 @@
             <div class="col-md-6">
                 <nav class="navbar">
                     <ul>
-                        <li><select id="nav-select">
-                            <option value="#">Plots</option>
-                            <option value="Vis 1"><a href="https://juliabrunett.github.io/Web-Design-Challenge/vis1.html">Vis 1</a></option>
-                            <option value="Vis 2" href="https://juliabrunett.github.io/Web-Design-Challenge/vis2.html">Vis 2</option>
-                            <option value="Vis 3" href="https://juliabrunett.github.io/Web-Design-Challenge/vis3.html">Vis 3</option>
-                            <option value="Vis 4" href="https://juliabrunett.github.io/Web-Design-Challenge/vis4.html">Vis 4</option>
-                          </select></li>
+                        <li>
+                            <!--Dropdown Menu for Visualization links
+                            Doesn't work right now-->
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis1.html">Vis 1</a>
+                                    <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis2.html">Vis 2</a>
+                                    <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis3.html">Vis 3</a>
+                                    <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis4.html">Vis 4</a>
+                                </div>
+                            </div>
+                        </li>
                         <li><a href="https://juliabrunett.github.io/Web-Design-Challenge/comparisons.html">Comparisons</a></li>
                         <li><a href="https://juliabrunett.github.io/Web-Design-Challenge/data.html">Data</a></li>
                     </ul>
