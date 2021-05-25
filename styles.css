@@ -103,8 +103,6 @@ p {
     float: left;
     width: 50%;
     padding: 10px;
-    border:rgb(93, 93, 158);
-    border-radius: 4px;
 }
 
 #visualization-image {
@@ -138,6 +136,13 @@ p {
 .dropdown-item.active {
     background-color: rgb(93, 93, 158);
 }
+
+.active img {
+    border: solid rgb(93, 93, 158);
+    border-width: 2px;
+}
+
+
 @media (max-width: 765px) {
     body {
         background: white;
