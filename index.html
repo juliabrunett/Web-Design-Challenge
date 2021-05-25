@@ -31,7 +31,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis1.html">Temperature vs Lat.</a>
                         <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis2.html">Humidity vs Lat.</a>
-                        <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis3.html">Windspeed vs Lat.</a>
+                        <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis3.html">Wind Speed vs Lat.</a>
                         <a class="dropdown-item" href="https://juliabrunett.github.io/Web-Design-Challenge/vis4.html">Cloudiness vs Lat.</a>
                     </div>
                 </li>
@@ -58,9 +58,15 @@
 
                 <img id="summary-image" src="https://juliabrunett.github.io/Web-Design-Challenge/Visualizations/temp_lat.png" alt="Temperature vs. Latitude Graph"/>
                 <!--Wrap Text next to image-->
-                <p>The purpose of this project was to utilize a Weather API to find weather datapoints with their respective
-                    latitude points to discover trends between the degrees of latitude and the temperature, humidity, windspeed, and cloudiness.
+                <p>The purpose of this project was to utilize the <a href="https://openweathermap.org/api">Open Weather Map API</a> and the
+                    <a href="https://pypi.org/project/citipy/">citipy python package</a> to find weather details with their respective
+                    latitude and longitude coordinates to discover trends between the degrees of latitude and a specified "x": temperature, humidity, wind speed, and/or cloudiness. 
                 </p>
+                <p>Random latitude and longitude combinations were first created using the numpy random function, then the coordinates were used to search for the city name that 
+                    is located in the citipy library. Then, those city names were input into the API endpoint to collect a list of various weather details for each city. After those lists were created, matplotlib 
+                    was used to plot each of the details into graphs. Click <a href="https://github.com/juliabrunett/python-api-challenge">here</a> to view the jupyter notebook.
+                </p>
+               
                 </div>
             </div>
        
@@ -80,7 +86,7 @@
                                 </a>
                     
                                 <a href="vis3.html">
-                                <img src="https://juliabrunett.github.io/Web-Design-Challenge/Visualizations/windspeed_lat.png" alt="Windspeed vs. Latitude Graph"/>
+                                <img src="https://juliabrunett.github.io/Web-Design-Challenge/Visualizations/windspeed_lat.png" alt="Wind Speed vs. Latitude Graph"/>
                                 </a>
                                 <a href="vis4.html">
                                 <img src="https://juliabrunett.github.io/Web-Design-Challenge/Visualizations/cloudiness_lat.png" alt="Cloudiness vs. Latitude Graph"/>

@@ -103,6 +103,8 @@ p {
     float: left;
     width: 50%;
     padding: 10px;
+    border:rgb(93, 93, 158);
+    border-radius: 4px;
 }
 
 #visualization-image {
@@ -132,6 +134,7 @@ p {
     border-color: white;
     margin-right: 15px;
 }
+
 
 @media (max-width: 765px) {
     body {
@@ -192,14 +195,14 @@ p {
         text-align: left;
     }
 
-    .visualization img {
+    #visualization-image {
         width: 100%;
-        padding:10px;
+        padding: 10px;
     }
 
     #summaryBox {
         background-color: white;
-        height: 350px;
+        height: 600px;
         width: 100%;
         padding: 10px;
     }
@@ -211,4 +214,13 @@ p {
         padding: 10px;
     }
    
+    p {
+        text-align: left;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
 }
