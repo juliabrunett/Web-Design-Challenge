@@ -135,7 +135,9 @@ p {
     margin-right: 15px;
 }
 
-
+.dropdown-item.active {
+    background-color: rgb(93, 93, 158);
+}
 @media (max-width: 765px) {
     body {
         background: white;
