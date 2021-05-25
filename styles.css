@@ -1,23 +1,47 @@
-.body {
+h1 {
+    font-size: 30px;
+    background: purple;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:purple;
+    font-size: 25px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
     background: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    float: right;
+    text-align: justify;
 }
 
 .navbar {
     padding: 10px;
     background: white;
+    width: 100%;
 
 }
 
-.navbar li a {
-    text-decoration: none;
-    color: black;
-    font-size: 11px;
-    text-align: end;
+.navbar-brand {
+    background: purple;
+    padding: 10px;
+    margin-top:0%;
+    margin-bottom:0%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
 
-}
-.dropdown {
-    background: white;
-}
 .navbar li {
     display: inline-block;
     padding: 10px;
@@ -25,25 +49,75 @@
     border-radius: 4px;
 }
 
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: right;
+
+}
+
 .box {
     padding: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
+    height:100px;
+    width:100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-#whiteBackground {
-    background-color: white;
-}
-
-
-.website_title h1{
+.box h1 {
     font-size: 40px;
-    color: red;
-    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#summaryBox {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+}
+
+#previewBox {
+    background-color: white;
+    height: 500px;
+    width: 100%;
 }
 
 .btn {
     background: white;
     border: none;
+}
+
+.visualization_preview h2 {
+    text-align: center;
+}
+
+.visualization_preview img {
+    width: 100px;
+}
+
+.col-md-2 {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+#summary-image {
+    margin-right: 20px;
+    width: 300px;
+    float: left;
+    
+}
+@media (max-width: 993px) {
+
 }
