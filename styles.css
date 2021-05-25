@@ -168,7 +168,7 @@ p {
 /* Image: when active page */
 .active img {
     border: solid rgb(93, 93, 158);
-    border-width: 1px;
+    border-width: 2px;
 }
 
 /* Media Query: when width is reduced */
@@ -272,4 +272,8 @@ p {
         margin-left: 10px;
     }
 
+}
+
+@media (max-width: 1200px) {
+    
 }
