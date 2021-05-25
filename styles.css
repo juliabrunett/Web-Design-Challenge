@@ -98,6 +98,12 @@ p {
     width: 100%;
 }
 
+#dataBox {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
+
 .btn {
     background: white;
     border: none;
