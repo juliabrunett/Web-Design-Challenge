@@ -16,6 +16,7 @@ h2 {
     font-size: 25px;
     padding: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 /* Body */
@@ -104,7 +105,7 @@ p {
 /* Data Box: for data.html */
 #dataBox {
     background-color: white;
-    height: 800px;
+    height: auto;
     width: 100%;
 }
 
