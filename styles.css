@@ -1,3 +1,4 @@
+/* Heading 1 */
 h1 {
     font-size: 30px;
     background: rgb(93, 93, 158);
@@ -9,6 +10,7 @@ h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Heading 2 */
 h2 {
     color: rgb(93, 93, 158);
     font-size: 25px;
@@ -16,16 +18,20 @@ h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Body */
 body {
     background: lightgray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Paragraphs */
 p {
-    text-align: justify;
+    /*text-align: justify;*/
     padding: 10px;
+    margin-top: 10px;
 }
 
+/* Navbar */
 .navbar {
     padding: 0px;
     background: white;
@@ -33,6 +39,7 @@ p {
 
 }
 
+/* Navbar: specifically the website title */
 .navbar-light .navbar-brand {
     font-size: 25px;
     font-weight: bold;
@@ -45,6 +52,7 @@ p {
 
 }
 
+/* Navbar: list objects */
 .navbar li {
     display: inline-block;
     padding: 10px;
@@ -52,6 +60,7 @@ p {
     border-radius: 4px;
 }
 
+/* Navbar: list objects (link text) */
 .navbar li a {
     text-decoration: none;
     color: black;
@@ -60,6 +69,7 @@ p {
 
 }
 
+/* Box objects */
 .box {
     padding: 10px;
     height:100px;
@@ -70,40 +80,47 @@ p {
     margin-bottom: 10px;
 }
 
+/* Summary Box: for index.html */
 #summaryBox {
     background-color: white;
     height: auto;
     width: 100%;
 }
 
+/* Preview Box: for index.html & vis pages */
 #previewBox {
     background-color: white;
-    height: 350px;
+    height: auto;
     width: 100%;
 }
 
+/* Comparisons Box: for comparisons.html */
 #comparisonsBox {
     background-color: white;
     height: 800px;
     width: 100%;
 }
 
+/* Data Box: for data.html */
 #dataBox {
     background-color: white;
     height: 800px;
     width: 100%;
 }
 
+/* Visualization Preview: Heading 2 */
 .visualization_preview h2 {
     text-align: center;
 }
 
+/* Visualization Preview: Images (goes with previewBox) */
 .visualization_preview img {
     float: left;
     width: 50%;
     padding: 5px;
 }
 
+/* Visualization Image: for each vis.html (main box) */
 #visualization-image {
     float: left;
     width: 100%;
@@ -111,13 +128,14 @@ p {
     margin-bottom: 20px;
 }
 
+/* Summary Image: for summary image on index.html */
 #summary-image {
     margin-right: 20px;
     width: 50%;
     float: left;
-    
 }
 
+/* Comparisons Images: for comparisons.html */
 #comparisons-image {
     width: 40%;
     padding: 10px;
@@ -128,34 +146,46 @@ p {
     align-content: center;
 }
 
+/* Preview Description paragraphs: for index.html and vis pages  */
+#preview-description p {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Navbar: toggler when page is reduced */
 .navbar-light .navbar-toggler {
     color: gray;
     border-color: white;
     margin-right: 15px;
 }
 
+/* Dropdown Item: when active */
 .dropdown-item.active {
     background-color: rgb(93, 93, 158);
 }
 
+/* Image: when active page */
 .active img {
     border: solid rgb(93, 93, 158);
-    border-width: 2px;
+    border-width: 1px;
 }
 
-
+/* Media Query: when width is reduced */
 @media (max-width: 765px) {
+    /* Body */
     body {
         background: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
+    /* Navbar */
     .navbar {
         padding: 0px;
         background: rgb(93, 93, 158);
         width: 100%;
     }
 
+    /* Navbar: specifically the website title */
     .navbar-light .navbar-brand {
         font-size: 25px;
         font-weight: bold;
@@ -167,6 +197,7 @@ p {
 
     }
 
+    /* Navbar: list objects */
     .navbar li {
         display: inline-block;
         padding: 10px;
@@ -174,6 +205,7 @@ p {
         border-radius: 4px;
     }
 
+    /* Navbar: links text */
     .navbar li a {
         text-decoration: none;
         color: black;
@@ -182,6 +214,7 @@ p {
 
     }
 
+    /* Boxes */
     .box {
         padding: 10px;
         height:100px;
@@ -193,22 +226,26 @@ p {
         width: 100%;
     }
 
+    /* Visualization Preview: Images (goes with previewBox)  */
     .visualization_preview img {
         float: left;
         width: 30%;
-        padding: 10px;
+        padding: 5px;
         align-content: center;
     }
 
+    /* Visualization Preview: Heading 2 */
     .visualization_preview h2 {
         text-align: left;
     }
 
+    /* Visualization Image: for each vis.html (main box) */
     #visualization-image {
         width: 100%;
         padding: 10px;
     }
 
+    /* Summary Box: for index.html */
     #summaryBox {
         background-color: white;
         height: auto;
@@ -216,6 +253,7 @@ p {
         padding: 10px;
     }
 
+    /* Containers */
     .container {
         margin-left: 30px;
         margin-right: 30px;
@@ -223,6 +261,7 @@ p {
         padding: 10px;
     }
    
+    /* Paragraphs */
     p {
         text-align: left;
         padding: 10px;
