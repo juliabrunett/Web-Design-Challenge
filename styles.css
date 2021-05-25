@@ -92,6 +92,12 @@ p {
     width: 100%;
 }
 
+#comparisonsBox {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
+
 .btn {
     background: white;
     border: none;
@@ -123,6 +129,16 @@ p {
     width: 50%;
     float: left;
     
+}
+
+#comparisons-image {
+    width: 40%;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
 }
 @media (max-width: 993px) {
 
