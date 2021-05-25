@@ -22,24 +22,28 @@ body {
 }
 
 p {
-    float: right;
     text-align: justify;
+    padding: 5px;
 }
 
 .navbar {
-    padding: 10px;
+    padding: 0px;
     background: white;
     width: 100%;
 
 }
 
-.navbar-brand {
+
+.navbar-light .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
     background: purple;
-    padding: 10px;
-    margin-top:0%;
-    margin-bottom:0%;
-    margin-left: 5px;
-    margin-right: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .navbar li {
@@ -98,7 +102,9 @@ p {
 }
 
 .visualization_preview img {
-    width: 100px;
+    float: left;
+    width: 50%;
+    padding: 10px;
 }
 
 .col-md-2 {
@@ -114,7 +120,7 @@ p {
 
 #summary-image {
     margin-right: 20px;
-    width: 300px;
+    width: 50%;
     float: left;
     
 }
