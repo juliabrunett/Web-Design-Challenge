@@ -98,7 +98,7 @@ p {
 /* Comparisons Box: for comparisons.html */
 #comparisonsBox {
     background-color: white;
-    height: 800px;
+    height: auto;
     width: 100%;
 }
 
@@ -230,7 +230,7 @@ p {
     /* Visualization Preview: Images (goes with previewBox)  */
     .visualization_preview img {
         float: left;
-        width: 30%;
+        width: 50%;
         padding: 5px;
         align-content: center;
     }
@@ -271,6 +271,22 @@ p {
         margin-right: 10px;
         margin-left: 10px;
     }
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
 
+    /* Comparisons Images: for comparisons.html */
+    #comparisons-image {
+        width: 100%;
+        padding: 10px;
+        align-content: center;
+    }
+    /*
+    .row .col-md-12 img {
+        float: left;
+        width: 30%;
+        padding: 5px;
+        align-content: center;
+    }*/
 }
 

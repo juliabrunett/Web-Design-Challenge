@@ -1,0 +1,10 @@
+@media (max-width: 991px) {
+    #comparisons-image {
+        width: 100%;
+        align-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
