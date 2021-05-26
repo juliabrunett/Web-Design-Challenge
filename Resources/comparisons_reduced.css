@@ -1,4 +1,47 @@
 @media (max-width: 991px) {
+    /* Body */
+    body {
+        background: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+    /* Navbar */
+    .navbar {
+        padding: 0px;
+        background: rgb(93, 93, 158);
+        width: 100%;
+    }
+    
+    /* Navbar: specifically the website title */
+    .navbar-light .navbar-brand {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        background: rgb(93, 93, 158);
+        padding: 20px;
+        margin-left: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    /* Navbar: list objects */
+    .navbar li {
+        display: inline-block;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    /* Navbar: links text */
+    .navbar li a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        text-align: right;
+    
+    } 
+    
+    /* Comparisons Images when size is reduced */
     #comparisons-image {
         width: 100%;
         align-content: center;
@@ -7,4 +50,10 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
+    /* Navbar Links when size reduced*/
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
+
 }

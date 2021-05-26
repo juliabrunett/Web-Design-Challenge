@@ -171,6 +171,7 @@ p {
     border-width: 2px;
 }
 
+
 /* Media Query: when width is reduced */
 @media (max-width: 765px) {
     /* Body */
@@ -261,7 +262,7 @@ p {
         align-content: center;
         padding: 10px;
     }
-   
+
     /* Paragraphs */
     p {
         text-align: left;
@@ -271,6 +272,8 @@ p {
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    /* Navbar Links when size reduced*/
     .navbar-light .navbar-nav .nav-link {
         color: white;
     }
@@ -281,12 +284,5 @@ p {
         padding: 10px;
         align-content: center;
     }
-    /*
-    .row .col-md-12 img {
-        float: left;
-        width: 30%;
-        padding: 5px;
-        align-content: center;
-    }*/
 }
 

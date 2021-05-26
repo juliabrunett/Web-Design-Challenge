@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
    /* Body */
-   body {
+    body {
     background: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -40,4 +40,10 @@
     text-align: right;
 
 } 
+
+/* Navbar Links when size reduced*/
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
 }
