@@ -171,6 +171,9 @@ p {
     border-width: 2px;
 }
 
+p a {
+    color:rgb(93, 93, 158)
+}
 
 /* Media Query: when width is reduced */
 @media (max-width: 765px) {
