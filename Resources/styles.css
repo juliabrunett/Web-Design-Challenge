@@ -151,6 +151,7 @@ p {
 #preview-description p {
     margin-top: 20px;
     padding: 20px;
+    text-align: center;
 }
 
 /* Navbar: toggler when page is reduced */
@@ -175,7 +176,7 @@ p a {
     color:rgb(93, 93, 158)
 }
 
-/* Media Query: when width is reduced */
+/* Media Query: when width is reduced 765px*/
 @media (max-width: 765px) {
     /* Body */
     body {
@@ -199,7 +200,6 @@ p a {
         padding: 20px;
         margin-left: 20px;
         font-family:Georgia, 'Times New Roman', Times, serif;
-
     }
 
     /* Navbar: list objects */
@@ -223,11 +223,10 @@ p a {
     .box {
         padding: 10px;
         height:100px;
-        width:100px;
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
         width: 100%;
     }
 
@@ -289,3 +288,46 @@ p a {
     }
 }
 
+/* Media Query: when width is reduced 577px*/
+@media (max-width: 577px) {
+    /* Navbar: specifically the website title */
+    .navbar-light .navbar-brand {
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    /* Visualization Preview: Images (goes with previewBox)  */
+    .visualization_preview img {
+        float: left;
+        width: 40%;
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+
+    }
+    h2 { 
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+      /* Visualization Image: for each vis.html (main box) */
+    #visualization-image {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    /* Summary Image: for summary image on index.html */
+    #summary-image {
+        margin-right: 10px;
+        width: 40%;
+        float: left;
+    }
+
+    #preview-description p {
+        padding: 0px;
+        margin-top: 5px;
+    }
+}
