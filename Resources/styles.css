@@ -329,4 +329,10 @@ p a {
     #preview-description p {
         text-align:left;
     }
+
+    /* Summary Box: for index.html */
+    #summaryBox {
+        width: 90%;
+        padding: 10px;
+    }
 }
