@@ -172,6 +172,7 @@ p {
     border-width: 2px;
 }
 
+/* Paragraph attribute */
 p a {
     color:rgb(93, 93, 158)
 }
@@ -335,4 +336,5 @@ p a {
         width: 90%;
         padding: 10px;
     }
+
 }
