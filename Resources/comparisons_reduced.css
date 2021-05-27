@@ -1,6 +1,7 @@
 @media (max-width: 991px) {
     /* Body */
     body {
+        font-size: 15px;
         background: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
         }
@@ -9,18 +10,14 @@
     .navbar {
         padding: 0px;
         background: rgb(93, 93, 158);
-        width: 100%;
+        width:100%;
     }
     
     /* Navbar: specifically the website title */
     .navbar-light .navbar-brand {
-        font-size: 25px;
-        font-weight: bold;
-        color: white;
-        background: rgb(93, 93, 158);
-        padding: 20px;
-        margin-left: 20px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 10px;
     
     }
     
@@ -43,7 +40,7 @@
     
     /* Comparisons Images when size is reduced */
     #comparisons-image {
-        width: 100%;
+        width: 90%;
         align-content: center;
         margin-right: 0px;
         margin-left: 0px;
@@ -54,6 +51,10 @@
     /* Navbar Links when size reduced*/
     .navbar-light .navbar-nav .nav-link {
         color: white;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 
 }
