@@ -21,4 +21,16 @@
 
 **comparisons.html:** the comparisons page on the website
 
+# Main Page
+![Main Page](Images/main_page.png)
+
+# Example Visualization
+![Example Page](Images/example_vis.png)
+
+# Data Page
+![Data Page](Images/data_page.png)
+
+# Comparisons Page
+![Comparisons Page](Images/comparisons_page.png)
+
 
