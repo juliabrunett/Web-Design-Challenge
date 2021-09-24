@@ -1,7 +1,22 @@
+/* Color Palette */
+/* rgb(155, 190, 199) */
+/* rgb(239, 203, 104) */
+/* rgb(0, 42, 50) */
+/* rgb(78, 116, 125) */
+/* Background rgb(235, 235, 235) */
+
+/* CSS HEX
+--british-racing-green: #294A2Fff;
+--hunter-green: #34553Aff;
+--desert-sand: #CAB09Fff;
+--columbia-blue: #C5E0EBff;
+--artichoke: #90A187ff; */
+
+
 /* Heading 1 */
 h1 {
     font-size: 30px;
-    background: rgb(93, 93, 158);
+    background: #34553Aff;
     padding: 10px;
     margin-left: 20px;
     margin-top: 0px;
@@ -12,7 +27,7 @@ h1 {
 
 /* Heading 2 */
 h2 {
-    color: rgb(93, 93, 158);
+    color: #34553Aff;
     font-size: 25px;
     padding: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -21,7 +36,7 @@ h2 {
 
 /* Body */
 body {
-    background: lightgray;
+    background: rgb(235, 235, 235);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -45,7 +60,7 @@ p {
     font-size: 25px;
     font-weight: bold;
     color: white;
-    background: rgb(93, 93, 158);
+    background: #90A187ff;
     padding: 20px;
     margin-left: 20px;
     color: white;
@@ -163,18 +178,20 @@ p {
 
 /* Dropdown Item: when active */
 .dropdown-item.active {
-    background-color: rgb(93, 93, 158);
+    background-color: #294A2Fff;
 }
 
 /* Image: when active page */
 .active img {
-    border: solid rgb(93, 93, 158);
+    border: solid #294A2Fff;
     border-width: 2px;
 }
 
 /* Paragraph attribute */
 p a {
-    color:rgb(93, 93, 158)
+    color:#294A2Fff;
+    text-decoration: underline;
+    
 }
 
 /* Media Query: when width is reduced 765px*/
@@ -188,7 +205,7 @@ p a {
     /* Navbar */
     .navbar {
         padding: 0px;
-        background: rgb(93, 93, 158);
+        background: #294A2Fff;
         width: 100%;
     }
 
@@ -197,7 +214,7 @@ p a {
         font-size: 25px;
         font-weight: bold;
         color: white;
-        background: rgb(93, 93, 158);
+        background: #294A2Fff;
         padding: 20px;
         margin-left: 20px;
         font-family:Georgia, 'Times New Roman', Times, serif;

@@ -8,7 +8,7 @@
 /* Navbar */
 .navbar {
     padding: 0px;
-    background: rgb(93, 93, 158);
+    background: #90A187ff;
     width: 100%;
 }
 
@@ -17,7 +17,7 @@
     font-size: 25px;
     font-weight: bold;
     color: white;
-    background: rgb(93, 93, 158);
+    background: #90A187ff;
     padding: 20px;
     margin-left: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
