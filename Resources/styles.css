@@ -38,10 +38,6 @@ h2 {
 body {
     background: rgb(235, 235, 235);
     font-family: 'Cambria', Georgia, serif;
-    background-image: url(../Assets/background.jpg); /* annie-spratt-OWq8w3BYMFY-unsplash */
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-size: cover;
 }
 
 /* Paragraphs */
